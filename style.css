@@ -329,21 +329,6 @@ tr:hover td {
   text-align: center;
 }
 
-.flip-card {
-  background: transparent;
-  width: 420px;
-  height: 520px;
-  perspective: 1000px;
-}
-
-.flip-card {
-  background: transparent;
-  width: 420px;
-  height: 520px;
-  perspective: 1000px;
-
-  flex: 1 1 300px; /* ✅ هذا يسمح للكروت تلتف على الجوال والآيباد بدون ما تكبر أو تنضغط */
-}
 
 
 
