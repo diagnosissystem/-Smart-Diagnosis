@@ -329,24 +329,23 @@ tr:hover td {
   text-align: center;
 }
 
-/* ✅ السماح بالتقليب على الجوال باللمس */
-.flip-card:active .flip-inner,
-.flip-card:focus .flip-inner {
-  transform: rotateY(180deg);
-}
-
-/* ✅ جعل الكارد مرن في المقاسات */
 .flip-card {
-  max-width: 420px;
-  width: 100%;
+  background: transparent;
+  width: 420px;
+  height: 520px;
+  perspective: 1000px;
 }
 
-/* ✅ تحسين الالتفاف في الشاشات المتوسطة (آيباد) */
-@media (max-width: 1024px) {
-  .cards {
-    justify-content: center;
-  }
+.flip-card {
+  background: transparent;
+  width: 420px;
+  height: 520px;
+  perspective: 1000px;
+
+  flex: 1 1 300px; /* ✅ هذا يسمح للكروت تلتف على الجوال والآيباد بدون ما تكبر أو تنضغط */
 }
+
+
 
 
 
