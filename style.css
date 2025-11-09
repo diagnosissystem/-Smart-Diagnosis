@@ -342,6 +342,19 @@ tr:hover td {
   padding: 20px;
 }
 
+/* تعطيل لف الكارد على الجوال والآيباد */
+@media (max-width: 1024px) {
+  .card-inner {
+    transform: none !important;
+  }
+
+  .card-front, .card-back {
+    backface-visibility: visible !important;
+    position: relative !important;
+  }
+}
+
+
 
 
 
