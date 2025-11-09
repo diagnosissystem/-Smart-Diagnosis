@@ -328,6 +328,20 @@ tr:hover td {
   justify-content: center;
   text-align: center;
 }
+/* ✅ استرجاع مقاس الكارد مثل ما كان على الكمبيوتر */
+.flip-card {
+  width: 420px;
+  height: 520px;
+  max-width: none;
+}
+
+/* ✅ حتى ما يضغط المحتوى داخل الخلف */
+.flip-back {
+  align-items: flex-start;
+  text-align: right;
+  padding: 20px;
+}
+
 
 
 
